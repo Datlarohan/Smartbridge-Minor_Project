@@ -1,5 +1,6 @@
 # Smartbridge-Minor_Project
 <br>
+<html>
 #1.Assignments
 <br>
 #2.Project Initialization and Planning
@@ -13,3 +14,4 @@
 #6.Project Executable files
 <br>
 #7.Documentaion and Demonstration
+</html>
