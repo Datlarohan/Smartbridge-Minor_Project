@@ -6,5 +6,5 @@ https://github.com/Datlarohan/Smartbridge-Minor_Project/tree/c85bc572d4bbbf11536
 #Model Optimization and tuning Phase
 #project Executable files 1 templates
 #
-[README](./README.md)
+[Assignments](./Assignments)
 
