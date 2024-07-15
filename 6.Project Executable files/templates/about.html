@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Startup Success Prediction</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#section1">RandomF</a></li>
+            <li><a href="#section2">Logistic</a></li>
+            <li><a href="#section3">KNN</a></li>
+        </ul>
+    </nav>
+
+    <h1>BEGIN YOUR SUCCES JOURNEY</h1>
+    <p>This application predicts the success or failure of startups based on input data.</p>
+    <p>It uses a machine learning model trained on historical startup data to provide predictions.</p>
+    
+    <!-- Section 1 -->
+    <section id="section1" class="predict-section">
+        <h2>Please Fill the Below Details</h2>
+        <form action="/services" method="post">
+            <label for="Category1">Category:</label>
+            <select id="Category1" name="Category" required>
+                <option value="0">Select Category</option>
+                <option value="1">Fashion</option>
+                <option value="2">Film & Video</option>
+                <option value="3">Art</option>
+                <option value="4">Technology</option>
+                <option value="5">Other</option>
+            </select><br><br>
+            
+            <label for="Subcategory1">Subcategory:</label>
+            <select id="Subcategory1" name="Subcategory" required>
+                <option value="0">Select Subcategory</option>
+                <option value="1">Shorts</option>
+                <option value="2">Journalism</option>
+                <option value="3">Puzzles</option>
+                <option value="4">Other</option>
+            </select><br><br>
+            
+            <label for="Country1">Country:</label>
+            <select id="Country1" name="Country" required>
+                <option value="0">Select Country</option>
+                <option value="1">United States</option>
+                <option value="3">Japan</option>
+                <option value="4">Germany</option>
+                <option value="5">Australia</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+            
+            <label for="Goal1">Enter the goal value:</label>
+            <input type="number" id="Goal1" name="Goal" placeholder="Enter the values" required><br>
+            
+            <label for="Pledged1">Enter the pledged value:</label>
+            <input type="number" id="Pledged1" name="Pledged" placeholder="Enter the values" required><br>
+            
+            <label for="Backers1">Enter the backers value:</label>
+            <input type="number" id="Backers1" name="Backers" placeholder="Enter the values" required><br>
+            
+            <label for="Year1">Year:</label>
+            <input type="number" id="Year1" name="Year" placeholder="Enter the values" required><br>
+            
+             <label for="Year1">Year:</label>
+             <input type="number" id="State1" name="State" placeholder="Enter the values" required><br>
+             
+            
+            <button type="submit" value="Submit">Predict</button>
+        </form>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="section2" class="predict-section">
+        <h2>Please Fill the Below Details</h2>
+        <form action="/services" method="post">
+            <label for="Category2">Category:</label>
+            <select id="Category2" name="Category" required>
+                <option value="0">Select Category</option>
+                <option value="1">Fashion</option>
+                <option value="2">Film & Video</option>
+                <option value="3">Art</option>
+                <option value="4">Technology</option>
+                <option value="5">Other</option>
+            </select><br><br>
+            
+            <label for="Subcategory2">Subcategory:</label>
+            <select id="Subcategory2" name="Subcategory" required>
+                <option value="0">Select Subcategory</option>
+                <option value="1">Shorts</option>
+                <option value="2">Journalism</option>
+                <option value="3">Puzzles</option>
+                <option value="4">Other</option>
+            </select><br><br>
+            
+            <label for="Country2">Country:</label>
+            <select id="Country2" name="Country" required>
+                <option value="0">Select Country</option>
+                <option value="1">United States</option>
+                <option value="3">Japan</option>
+                <option value="4">Germany</option>
+                <option value="5">Australia</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+            
+            <label for="Goal2">Enter the goal value:</label>
+            <input type="number" id="Goal2" name="Goal" placeholder="Enter the values" required><br>
+            
+            <label for="Pledged2">Enter the pledged value:</label>
+            <input type="number" id="Pledged2" name="Pledged" placeholder="Enter the values" required><br>
+            
+            <label for="Backers2">Enter the backers value:</label>
+            <input type="number" id="Backers2" name="Backers" placeholder="Enter the values" required><br>
+            
+            <label for="Year2">Year:</label>
+            <input type="number" id="Year2" name="Year" placeholder="Enter the values" required><br>
+            
+            
+            <button type="submit" value="Submit">Predict</button>
+        </form>
+    </section>
+
+    <!-- Section 3 -->
+    <section id="section3" class="predict-section">
+        <h2>Please Fill the Below Details</h2>
+        <form action="/services" method="post">
+            <label for="Category3">Category:</label>
+            <select id="Category3" name="Category" required>
+                <option value="0">Select Category</option>
+                <option value="1">Fashion</option>
+                <option value="2">Film & Video</option>
+                <option value="3">Art</option>
+                <option value="4">Technology</option>
+                <option value="5">Other</option>
+            </select><br><br>
+            
+            <label for="Subcategory3">Subcategory:</label>
+            <select id="Subcategory3" name="Subcategory" required>
+                <option value="0">Select Subcategory</option>
+                <option value="1">Shorts</option>
+                <option value="2">Journalism</option>
+                <option value="3">Puzzles</option>
+                <option value="4">Other</option>
+            </select><br><br>
+            
+            <label for="Country3">Country:</label>
+            <select id="Country3" name="Country" required>
+                <option value="0">Select Country</option>
+                <option value="1">United States</option>
+                <option value="3">Japan</option>
+                <option value="4">Germany</option>
+                <option value="5">Australia</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+            
+            <label for="Goal3">Enter the goal value:</label>
+            <input type="number" id="Goal3" name="Goal" placeholder="Enter the values" required><br>
+            
+            <label for="Pledged3">Enter the pledged value:</label>
+            <input type="number" id="Pledged3" name="Pledged" placeholder="Enter the values" required><br>
+            
+            <label for="Backers3">Enter the backers value:</label>
+            <input type="number" id="Backers3" name="Backers" placeholder="Enter the values" required><br>
+            
+            <label for="Year3">Year:</label>
+            <input type="number" id="Year3" name="Year" placeholder="Enter the values" required><br>
+            
+            
+            <button type="submit" value="Submit">Predict</button>
+        </form>
+    </section>
+</body>
+</html>
