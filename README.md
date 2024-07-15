@@ -4,3 +4,5 @@
 #3.Data Collection and Preprocessing 
 #4.Model Development Phase
 #5.Model Optimization and Tuning
+#6.Project Executable files
+#7.Documentaion and Demonstration
